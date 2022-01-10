@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link type="text/css" rel="styleSheet" href="/source/css/main.css"/>
+ <link rel="stylesheet" href="/source/css/font-awesome.min.css"/>
+ <script type="text/javascript" src="/lib/jquery-3.5.1.min.js"></script>
+ <script type="text/javascript" src="/lib/lazyload/jquery.lazyload.min.js"></script>
+ <link type="text/css" rel="styleSheet" href="/lib/jquery.fancybox.min.css"/>
+ <script type="text/javascript" src="/lib/jquery.fancybox.min.js"></script>
+ <script type="text/javascript" src="/source/js/turntopage.js"></script>
+ <link rel="icon" href="https://cdn.jsdelivr.net/gh/ukityh/ukityh.github.io@master/source/imgs/favicon.png"/>
+ <title>打赏 | UTOPIA</title>
+</head>
+<body>
+ <header>
+  <div class="header-inner">
+   <script>$(".header-inner").load("/layout/partial/header.html")</script>
+  </div>
+ </header>
+
+<div class="author-inner">
+ <script>$(".author-inner").load("/layout/partial/author.html")</script>
+</div>
+
+<div class="main-inner">
+
+ <div class="content">
+  <div class="content-inner">
+   <div class="sidebar-left">
+    <ul class="left-nav">
+     <a href="/index.html"><li class="list-item"><i class="fa fa-handshake-o" aria-hidden="true"></i>&ensp;公 告</li></a>
+     <a href="/layout/index/say.html"><li class="list-item"><i class="fa fa-commenting-o" aria-hidden="true"></i>&nbsp;说 说</li></a>
+     <a href="/layout/index/reward.html"><li class="list-item active"><i class="fa fa-jpy" aria-hidden="true"></i>&nbsp;打 赏</li></a>
+    </ul>
+   </div>
+
+   <div class="middle">
+
+   <div class="middle-bar">
+    <i class="fa fa-jpy" aria-hidden="true"></i>要饭
+   </div>
+
+   <div class="middle-content">
+    <div class="route">
+     <span class="route-item"><i class="fa fa-fort-awesome" aria-hidden="true"></i>主页 >
+     </span>
+    </div>
+    <center><h4>如果您喜欢本站的内容，欢迎给我一点鼓励~</h4>
+    <div class="rewardbox" style="display:flex;width:70%;">
+    <div class="img-box" style="width: 40%;">
+     <div class="img-pic"><a data-fancybox="gallery" href="https://cdn.jsdelivr.net/gh/ukityh/ukityh.github.io@master/source/imgs/reward-alipay.jpg">
+     <img data-original="https://cdn.jsdelivr.net/gh/ukityh/ukityh.github.io@master/source/imgs/reward-alipay.jpg" alt=""></a></div><p>支付宝</p>
+    </div>
+    <div class="img-box"style="width: 40%;">
+     <div class="img-pic"><a data-fancybox="gallery" href="https://cdn.jsdelivr.net/gh/ukityh/ukityh.github.io@master/source/imgs/reward-wechat.jpg">
+     <img data-original="https://cdn.jsdelivr.net/gh/ukityh/ukityh.github.io@master/source/imgs/reward-wechat.jpg" alt=""></a></div><p>微信</p>
+    </div></div></center>
+
+    <hr>
+
+    <p>天哪，本来只是挂在这里凑个页面没想到真的有老板打赏T_T 很意外！！真的非常受鼓舞！！谢谢您的喜欢！！！</p>
+   <div class="table-container" style="text-align:center;"><table>
+   <thead>
+   <tr><th>平台</th><th>昵称</th><th>金额</th><th>备注</th></tr></thead>
+   <tbody><tr><td>微信</td><td>Huá</td><td>1.00</td><td></td></tr></tbody>
+   <tbody><tr><td>微信</td><td>Endery</td><td>5.00</td><td>能让你感到有趣真是太好了！</td></tr></tbody>
+   </table></div>
+   </div>
+   </div>
+
+   <div class="sidebar-right">
+   </div>
+  </div>
+ </div>
+</div>
+
+<footer>
+ <div class="footer-inner">
+  <script>$(".footer-inner").load("/layout/partial/footer.html")</script>
+ </div>
+</footer>
+<div class="back-to-top">
+ <script>$(".back-to-top").load("/layout/partial/backtotop.html")</script>
+</div>
+</body>
+<script>
+ $(function(){
+  $("img").lazyload({
+   placeholder : "https://cdn.jsdelivr.net/gh/ukityh/ukityh.github.io@master/source/imgs/loading.gif",
+   effect : "fadeIn",
+  });
+ });
+</script>
+</html>

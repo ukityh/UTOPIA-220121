@@ -1,0 +1,199 @@
+@media all and (max-width: 1300px) {
+ .author {
+  width: auto;
+  padding: 0 5em;
+ }
+
+ .author-meta {
+  left: 14em;
+ }
+
+ .main-inner {
+  margin: 0;
+  padding: 0;
+  width: auto;
+ }
+
+ .middle {
+  width: calc(100% - 200px);
+ }
+
+ .footer-inner {
+  width: 100%;
+  border-radius: 0;
+ }
+}
+
+@media all and (max-width: 1000px) {
+ .author {
+  padding: 0 1em;
+ }
+
+ .author-meta {
+   left: 10em;
+ }
+
+ .sidebar-left {
+  min-height: 46px;
+  position: absolute;
+  width: 100%;
+  border-top-left-radius: 0;
+ }
+
+ .sidebar-left ul {
+  padding: 5px 0;
+ }
+
+ .sidebar-left li {
+  margin: 0;
+ }
+ 
+ .left-nav, .left-nav li {
+  float: left;
+  padding: 2px 0;
+  width: 70px;
+ }
+
+ .left-nav {
+  width: 100%;
+ }
+
+ .left-nav i {
+     display: none
+ }
+
+ .middle {
+  position: relative;
+  top: 42px;
+  width: 100%;
+  margin: 5px 0 2em 0;
+ }
+
+ .middle-content {
+  padding: 2em 1em 5em;
+ }
+
+ .img-box {
+  width: 75% !important;
+ }
+
+ .box {
+  padding: 1.5em 1em !important;
+ }
+
+ .sidebar-right {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0 1em;
+  border-top-right-radius: 0;
+ }
+
+ .sidebar-right ul,.sidebar-right li {
+  float: left;
+  top: 0;
+  padding-top: 0;
+  margin: 0;
+ }
+
+ .sidebar-right li {
+  width: 70px;
+ }
+
+ .footer-inner {
+  margin: .8em auto 13em;
+ }
+
+ #mobile-menuicon {
+  display: inline;
+  font-size: 20px;
+  position: absolute;
+  right: 1em;
+  top: .8em;
+  cursor: pointer;
+  color: rgba(255,255,255,.82);
+  transition-duration: .2s;
+ }
+ 
+ #mobile-menuicon:hover {
+  color: #fff;
+ }
+
+ .mobile-hidden {
+  display: none;
+ }
+
+ .nav-first li{
+  float: none;
+ }
+
+ .nav a:hover {
+  box-shadow: none;
+  }
+
+ .nav ul {
+  position: fixed;
+  margin-left: 0;
+  width: 100%;
+  top: 45px;
+  padding-bottom: 10px;
+  background-color: rgba(0,0,0,.9);
+  text-align: center;
+ }
+
+ .nav-first li {
+  width: 100%;
+  text-align: center;
+  background: transparent;
+ }
+
+ .nav-second ul {
+  position: relative;
+  top: 0;
+  background: transparent;
+  opacity: .85;
+  text-shadow: 0 0 5px rgba(255,255,255,.5);
+ }
+
+ #li_4 {
+  position: relative;
+  right: 0;
+ }
+
+ .random-links {
+  right: 4.5em;
+  width: 0;
+ }
+}
+
+@media all and (max-width: 500px) {
+ .author img {
+   width: 100px;
+   height: 100px;
+ }
+
+ .author-meta {
+  left: 8.5em;
+  margin-right: 1em;
+ }
+
+ .author-name {
+  font-size: 22px;
+ }
+
+ .left-nav li{
+  width: 60px;
+ }
+
+ .middle-content {
+  padding: 2em 8px 5em;
+ }
+
+ .img-box {
+  width: 90% !important;
+ }
+
+ .album-box {
+  padding: 0 !important;
+ }
+}

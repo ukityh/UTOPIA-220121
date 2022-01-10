@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link type="text/css" rel="styleSheet" href="/source/css/main.css"/>
+ <link rel="stylesheet" href="/source/css/font-awesome.min.css"/>
+ <script type="text/javascript" src="/lib/jquery-3.5.1.min.js"></script>
+ <script type="text/javascript" src="/source/js/turntopage.js"></script>
+ <link rel="icon" href="https://cdn.jsdelivr.net/gh/ukityh/ukityh.github.io@master/source/imgs/favicon.png"/>
+ <title>关于本站 | UTOPIA</title>
+</head>
+<body>
+ <header>
+  <div class="header-inner">
+   <script>$(".header-inner").load("/layout/partial/header.html")</script>
+  </div>
+ </header>
+
+<div class="author-inner">
+ <script>$(".author-inner").load("/layout/partial/author.html")</script>
+</div>
+
+<div class="main-inner">
+
+ <div class="content">
+  <div class="content-inner">
+   <div class="sidebar-left">
+   </div>
+
+   <div class="middle">
+
+   <div class="middle-bar">
+    <i class="fa fa-bookmark" aria-hidden="true"></i>关于本站
+   </div>
+
+   <div class="middle-content">
+    <div class="route">
+     <span class="route-item"><i class="fa fa-fort-awesome" aria-hidden="true"></i>关于 >
+      建站日志 >
+     </span>
+    </div>
+    <h1>关于本站</h1>
+    <center><p>新站点是由于各种综合因素而脑子一热开始搞的东西。
+     <br>一开始是想给认识的oc人做个网站，但是做了两页后她说等她的立绘出来再做，至今还没有后话。</p>
+     <p>于是想着干脆继续写博客好了，使用框架我最不喜欢的地方就是页面和文章分类太古板了，我有严重的分类强迫症。
+      <br>到后期因为残章tag上线了，文章也一直在用html直接写，md反而很拖后腿，也是原因之一。
+      <br>但是一开始倒是没想着要用，因为自己的技术实在有限。结果边学边写发现出来的效果竟然还不错，于是果断启用了。</p></center>
+     <h2>Q &amp; A</h2>
+     <p>Q：网站是怎么实现的呢？
+      <br>A：html+css+js/jQuery，部署在Github Page。</p>
+     <p>Q：为什么不用php/asp呢？
+      <br>A：<del>我不会</del>服务器太贵。（未来还是很有兴趣冲动态博客的）</p>
+      <p>Q：为什么不继续用Hexo了呢？
+       <br>A：我开心。</p>
+     <p>Q：为什么不用其他现成静态博客框架呢？
+      <br>A：同上。</p>
+      <p>Q：为什么要xxx而不是xxx呢？
+       <br>A：同上。</p>
+     <h2>UTOPIA · Static 事件</h2>
+     <details open="open">
+      <summary style="cursor:pointer;">2021</summary>
+      <h5>2021-12-11</h5>
+      <p>调整了一大堆css，解决了自从新站建立以来就未解决的问题，一个是在手机浏览时右侧导航栏位于footer下，会被遮挡……用内部元素设背景颜色代替直接用footer设背景颜色就解决了；第二个是lazyload<del>因为偷懒且不会而用的jQuery插件</del>初始图片是我巨讨厌的一片灰色，找到配置参数后立刻换掉了，开心。
+       <br/>想来想去还是建了相册页面，不然每次画一两幅画好像又不是很适合发篇文章……又遇到了一大堆css问题，也一一解决了。一个其他位置不起眼的小设置就会影响到全局，吐了。</p>
+      <p>话说最近purge刷新cdn缓存不是很好用耶……不知道是不是我中奖了。</p>
+      <h5>2021-10-03</h5>
+      <p>许久没关注这个站子了<del>都怪狒狒14</del>这两天调整了一些css，以及给页头增加了分类路径展示。分类强迫症之前把分类搞得太复杂了，加一下会清晰很多的感觉。</p>
+      <p>事实证明真的很复杂，我自己都给改晕了。</p>
+      <h5>2021-05-16</h5>
+      <p>因为一直想弄一个跳转页面时先返回顶部的动画，然后被<a href="https://saki.tangel.me/" target="_blank">Vivid <i class="fa fa-external-link"></i></a>大佬看见了。大佬给了两种方案，其中一种在自己的网页运行不了，另一种有bug，大佬说是因为jQuery异步加载的问题。</p>
+      <p>其实差不多一个月前就添加了这个动画，但是bug至今未能解决_(:з)∠)_而且同样是导航栏页面间的跳转在有些页面就没问题，我太菜了，解决这个bug加入学习目标了。</p>
+      <h5>2021-03-13</h5>
+      <p>今天登了一下Google Search Console，才发现之前的验证没了。于是重新验证了一下，并且更新了sitemap。至此感慨有个框架+主题是多么的方便……但是没有的话倒是可以学到一些东西，并且真的自由度很高。
+       <br>以及有小伙伴问到了RSS的问题，是不是和xml的写法差不多？(还是说就是xml……)打算有兴致就去研究一下。之前用Hexo的时候只能生成一个标题+摘要的feed，如果自己可以操作的话想写一个全文抓取的那种feed。
+      </p>
+      <p>以及返回顶部按钮弄好啦。jQuery这个自带的动画在用这里的效果好有意思2333</p>
+      <h5>2021-03-11</h5>
+      <p>因为不止一个小伙伴提到每篇文章都有评论模块比较好，所以给文章页面加上了评论。
+       <br>最开始不愿意加的原因是不知道未来坑填到哪天有新的东西时就想大改目录结构了，然后评论就会全部丢失_(:з)∠)_所以干脆把留言集中在一个页面好了。
+       <br>不过也无所谓，到时候新建个layout2文件夹也不是不可以。（咕咕精真的会迎来这一天吗）
+      </p>
+      <h5>2021-02-27</h5>
+      <p>小分辨率的导航栏写好了！初衷是能用就行没想到这么简单，无语。结果因为恐惧(?)还拖了这么久。
+       <br>第一个从头到尾自己写的网站，不持续更新下去都对不起自己了。
+       <br>对电脑端不是特别特别友好，因为没有把hover事件改成click。但本来也不是给电脑端用的。</p>
+      <h5>2021-02-12</h5>
+     <p>大年初一，上线！目前还有小分辨率屏幕的导航栏/返回顶部没有实现，等我高兴弄再说。（？
+      <br>添加了懒加载，了结了一桩心事（。</p></details>
+    <div class="post-copyright">
+     <script>$(".post-copyright").load("/layout/partial/copyright.html")</script>
+    </div>
+   </div>
+   </div>
+
+   <div class="sidebar-right">
+    <ul class="right-nav">
+     <a href="/layout/about/site-hexo.html"><li class="list-item active">本 站</li></a>
+     <a href="/layout/about/site-hexo.html"><li class="list-item">(旧)Hexo</li></a>
+    </ul>
+   </div>
+  </div>
+ </div>
+</div>
+
+<footer>
+ <div class="footer-inner">
+  <script>$(".footer-inner").load("/layout/partial/footer.html")</script>
+ </div>
+</footer>
+<div class="back-to-top">
+ <script>$(".back-to-top").load("/layout/partial/backtotop.html")</script>
+</div>
+</body>
+</html>

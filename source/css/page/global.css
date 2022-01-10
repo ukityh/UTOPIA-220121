@@ -1,0 +1,224 @@
+.main-inner {
+  width: 1300px;
+  margin: auto;
+}
+
+.author {
+  width: 900px;
+  margin: auto;
+  position: relative;
+}
+
+.author-avatar {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  bottom: 20px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 0 8px 4px rgba(0,0,0,.67);
+  transition-duration: .2s;
+}
+
+.author-avatar:hover {
+  box-shadow: 0 0 15px 4px rgba(0,0,0,.85);
+}
+
+.author-meta {
+  position: absolute;
+  left: 9em;
+  bottom: 1.8em;
+  color: #fff;
+  text-shadow: 0 0 8px var(--base-color-black);
+}
+
+.author-name {
+  font-size: 30px;
+  margin: 0 0 5px 2px;
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+
+.content-inner {
+  border-radius: 5px;
+  display: flex;
+}
+
+.sidebar-left {
+  width: 100px;
+  border-top-left-radius: var(--base-border-radus);
+  background-color: rgba(15,15,15,.75);
+}
+
+.sidebar-left ul {
+  position: sticky;
+  top: 2em;
+  padding-top: 3em;
+  text-align: center;
+}
+
+.sidebar-left li {
+  font-family: SourceHanSerifCN, sans-serif;
+  font-size: 17.5px;
+  font-weight: 700;
+  list-style: none;
+  width: 100px;
+  padding: 6px 0;
+  margin: 6px 0;
+  cursor: pointer;
+  transition-duration: .2s;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+.sidebar-left li:hover {
+ background-color: var(--base-color-white);
+ color: var(--base-color-black);
+ box-shadow: 0 0 2px rgba(0,0,0,.5);
+}
+
+.list-item.active {
+ background-color: var(--base-color-white);
+ color: #000;
+ box-shadow: 0 0 2px rgba(0,0,0,.5);
+}
+
+.list-item.active:hover {
+ box-shadow: 0 0 5px rgba(15,15,15,0.7) inset;
+}
+
+.sidebar-left a {
+  text-decoration: none;
+  color: var(--base-color-white)
+}
+
+.middle {
+  border-radius: var(--base-border-radus);
+  width: 1100px;
+}
+
+.middle-bar {
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 5px 7px;
+  background-color: rgba(15,15,15,.75);
+}
+
+.middle-bar p {
+  cursor: default;
+  text-shadow: 0 0 6px rgba(240,240,240,.3);
+}
+
+.middle-content {
+  background-color: rgba(240,240,240,.4);
+  min-height: 20em;
+  padding: 2em 3.5em 5em;
+  color: #000;
+}
+
+.sidebar-right {
+  width: 100px;
+  padding: 2em 0;
+  border-top-right-radius: var(--base-border-radus);
+  background-color: rgba(15,15,15,.75);
+}
+
+.sidebar-right ul {
+ position: sticky;
+ top: 2em;
+ padding-top: 3em;
+ text-align: center;
+}
+
+.sidebar-right li {
+ font-family: SourceHanSerifCN, sans-serif;
+ font-size: 16.5px;
+ list-style: none;
+ width: 100px;
+ padding: 4px 0;
+ margin: 5px 0;
+ cursor: pointer;
+ transition-duration: .2s;
+ overflow: hidden;
+ text-overflow:ellipsis;
+ white-space: nowrap;
+}
+
+.sidebar-right li:hover {
+ background-color: var(--base-color-white);
+ color: var(--base-color-black);
+ box-shadow: 0 0 2px rgba(0,0,0,.5);
+}
+
+.sidebar-right a {
+ text-decoration: none;
+ color: var(--base-color-white);
+}
+
+.footer-inner {
+ background-color: rgba(15,15,15,.75);
+ padding-top: 2em;
+ margin: 0 auto 13em;
+ text-align: center;
+ font-size:13px;
+ font-family: NotoSerifSC-Regular, sans-serif;
+ line-height: 1.7em;
+ width: 1300px;
+ color: var(--base-color-black);
+ border-bottom-left-radius: var(--base-border-radus);
+ border-bottom-right-radius: var(--base-border-radus);
+}
+
+.footer-inner a {
+  text-decoration: none;
+}
+
+.footer-inner p {
+ position: relative;
+ top: 9.5em;
+ z-index: -100;
+}
+
+#backTopBtn {
+ position: fixed;
+ bottom: 2em;
+ right: 2em;
+ display: none;
+ width: 3em;
+ height: 3em;
+ border: 2px solid var(--base-color-white);
+ border-radius: 50%;
+ opacity: .8;
+ transition-duration: .2s;
+ cursor: pointer;
+ background-color: rgba(5,5,5,.2);
+}
+
+#backTopBtn:hover {
+ opacity: 1;
+ background-color: rgba(5,5,5,.25);
+}
+
+.fa.fa-angle-up {
+ font-size: 40px;
+ position: relative;
+ left: 11px;
+ top: 2px;
+}
+
+.route { 
+ font-size: 14px;
+ padding-bottom: .5em;
+}
+
+.route > .route-item a {
+ color: black;
+ text-decoration: underline;
+}
+
+.route i {
+ position: relative;
+ bottom: 2px;
+ font-size: 16px;
+}
